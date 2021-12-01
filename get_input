@@ -10,4 +10,4 @@ echo "Usage: get_input [day]"
 fi
 session_cookie=$(cat session_cookie)
 #Download the input and save it to "Day_$1/input"
-curl -b"session=$session_cookie" https://adventofcode.com/2020/day/$1/input > Day_$1/input
+curl -b"session=$session_cookie" https://adventofcode.com/2021/day/$1/input > Day_$1/input
